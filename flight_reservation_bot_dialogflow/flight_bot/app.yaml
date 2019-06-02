@@ -1,0 +1,8 @@
+env_variables:
+    # Replace user, password, database, and instance connection name with the values obtained
+    # when configuring your Cloud SQL instance.
+    SQLALCHEMY_DATABASE_URI: >-
+      mysql+pymysql://root@/flights?unix_socket=/cloudsql/flook-new:us-central1:flook-db
+
+beta_settings:
+    cloud_sql_instances: flook-new:us-central1:flook-db
