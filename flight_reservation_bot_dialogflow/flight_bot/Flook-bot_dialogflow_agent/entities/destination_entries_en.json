@@ -1,0 +1,33 @@
+[
+  {
+    "value": "bangalore",
+    "synonyms": [
+      "bangalore",
+      "bengaluru"
+    ]
+  },
+  {
+    "value": "singapore",
+    "synonyms": [
+      "singapore"
+    ]
+  },
+  {
+    "value": "kochi",
+    "synonyms": [
+      "kochi"
+    ]
+  },
+  {
+    "value": "madurai",
+    "synonyms": [
+      "madurai"
+    ]
+  },
+  {
+    "value": "tirupathi",
+    "synonyms": [
+      "tirupathi"
+    ]
+  }
+]

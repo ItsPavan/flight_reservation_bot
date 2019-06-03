@@ -1,0 +1,78 @@
+{
+  "id": "0cf36635-bb1d-4eee-8b02-cd6bda30348f",
+  "name": "book_flight",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "get_mandatory_entities",
+      "affectedContexts": [
+        {
+          "name": "book_flight-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "94adac9c-d211-48a5-8242-7e4fed7cd8bb",
+          "required": true,
+          "dataType": "@sys.location",
+          "name": "source",
+          "value": "$source",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please provide your departure location"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "8ff3af76-dd55-4cb0-b3c8-130470d48209",
+          "required": true,
+          "dataType": "@sys.location",
+          "name": "destination",
+          "value": "$destination",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "What\u0027s your destination?"
+            }
+          ],
+          "isList": false
+        },
+        {
+          "id": "b1cf6f01-5d5b-430c-90fc-4dbfeb179706",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "dateofjourney",
+          "value": "$dateofjourney",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "When do you intend to fly?"
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "d240e333-c01c-4704-9306-826c84387bcb",
+          "dataType": "@qualifier",
+          "name": "qualifier",
+          "value": "$qualifier",
+          "isList": false
+        }
+      ],
+      "messages": [],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": []
+}

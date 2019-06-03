@@ -1,0 +1,19 @@
+[
+  {
+    "value": "cheapest",
+    "synonyms": [
+      "cheapest",
+      "cheap",
+      "cheaper",
+      "economic",
+      "budget"
+    ]
+  },
+  {
+    "value": "direct",
+    "synonyms": [
+      "direct",
+      "fastest"
+    ]
+  }
+]

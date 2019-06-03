@@ -1,0 +1,62 @@
+{
+  "id": "b55a45d0-bcca-4257-895b-b732d847290b",
+  "parentId": "0cf36635-bb1d-4eee-8b02-cd6bda30348f",
+  "rootParentId": "0cf36635-bb1d-4eee-8b02-cd6bda30348f",
+  "name": "book_flight - select.number",
+  "auto": true,
+  "contexts": [
+    "book_flight-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "book_flight.book_flight-selectnumber",
+      "affectedContexts": [
+        {
+          "name": "book_flight-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4f4dc88f-b532-4e82-90e8-dbef52b0708f",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "number",
+          "value": "$number",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "Please select from the list"
+            }
+          ],
+          "isList": true
+        },
+        {
+          "id": "7967b1c9-0c81-4161-8f98-c59033528cfb",
+          "required": false,
+          "dataType": "@sys.number-integer",
+          "name": "number-integer",
+          "value": "$number-integer",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "lastUpdate": 1508189124798,
+  "fallbackIntent": false,
+  "events": []
+}

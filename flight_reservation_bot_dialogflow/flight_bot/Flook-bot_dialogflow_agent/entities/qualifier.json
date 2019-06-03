@@ -1,0 +1,9 @@
+{
+  "id": "bb21da16-119c-44cf-b897-fecb78ce5cf0",
+  "name": "qualifier",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

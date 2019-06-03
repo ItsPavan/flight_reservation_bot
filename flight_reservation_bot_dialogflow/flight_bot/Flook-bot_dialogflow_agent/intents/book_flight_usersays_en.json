@@ -1,0 +1,310 @@
+[
+  {
+    "id": "885a9a60-150d-4f16-8435-1c744c4a1d4d",
+    "data": [
+      {
+        "text": "i\u0027d like to book a ",
+        "userDefined": false
+      },
+      {
+        "text": "direct",
+        "alias": "qualifier",
+        "meta": "@qualifier",
+        "userDefined": false
+      },
+      {
+        "text": " flight from ",
+        "userDefined": false
+      },
+      {
+        "text": "0000/00/00",
+        "alias": "dateofjourney",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "c15b2c61-2ff3-49d7-af00-aa3889b870b0",
+    "data": [
+      {
+        "text": "get me the ",
+        "userDefined": false
+      },
+      {
+        "text": "fastest",
+        "alias": "qualifier",
+        "meta": "@qualifier",
+        "userDefined": false
+      },
+      {
+        "text": " flight",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "79696078-a35a-4301-9525-ef4224afe891",
+    "data": [
+      {
+        "text": "book me ",
+        "userDefined": false
+      },
+      {
+        "text": "cheapest",
+        "alias": "qualifier",
+        "meta": "@qualifier",
+        "userDefined": false
+      },
+      {
+        "text": " flight from ",
+        "userDefined": false
+      },
+      {
+        "text": "ABC",
+        "alias": "source",
+        "meta": "@sys.location",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "XYZ",
+        "alias": "destination",
+        "meta": "@sys.location",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "0000/00/00",
+        "alias": "dateofjourney",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2aa2ca5b-a89d-44aa-a80e-76f4f05283e7",
+    "data": [
+      {
+        "text": "book flights from ",
+        "userDefined": false
+      },
+      {
+        "text": "ABC",
+        "alias": "source",
+        "meta": "@sys.location",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "XYZ",
+        "alias": "destination",
+        "meta": "@sys.location",
+        "userDefined": true
+      },
+      {
+        "text": " available between ",
+        "userDefined": false
+      },
+      {
+        "text": "0000/00/00",
+        "alias": "dateofjourney",
+        "meta": "@sys.date",
+        "userDefined": true
+      },
+      {
+        "text": " and ",
+        "userDefined": false
+      },
+      {
+        "text": "0000/00/00",
+        "alias": "dateofjourney",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "0e1143f9-f138-48fa-8d04-5f26bfe41fe8",
+    "data": [
+      {
+        "text": "I want a flight on ",
+        "userDefined": false
+      },
+      {
+        "text": "0000/00/00",
+        "alias": "dateofjourney",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "dd5fa7e7-7523-4443-8813-b653459a6327",
+    "data": [
+      {
+        "text": "Book a flight from ",
+        "userDefined": false
+      },
+      {
+        "text": "XYZ",
+        "alias": "source",
+        "meta": "@sys.location",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "XYZ",
+        "alias": "destination",
+        "meta": "@sys.location",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "6e88c085-b4d4-4825-8161-73e2f27dc603",
+    "data": [
+      {
+        "text": "I would like to book a flight ticket from ",
+        "userDefined": false
+      },
+      {
+        "text": "XYZ",
+        "alias": "source",
+        "meta": "@sys.location",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "XYZ",
+        "alias": "destination",
+        "meta": "@sys.location",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "0000/00/00",
+        "alias": "dateofjourney",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "ad337490-698b-4fe1-8de7-46e67ce9f281",
+    "data": [
+      {
+        "text": "a flight from ",
+        "userDefined": false
+      },
+      {
+        "text": "XYZ",
+        "alias": "source",
+        "meta": "@sys.location",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "XYZ",
+        "alias": "destination",
+        "meta": "@sys.location",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "0000/00/00",
+        "alias": "dateofjourney",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "2a275520-b870-45db-8fb6-bc7101223589",
+    "data": [
+      {
+        "text": "Do a booking from ",
+        "userDefined": false
+      },
+      {
+        "text": "XYZ",
+        "alias": "source",
+        "meta": "@sys.location",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "XYZ",
+        "alias": "destination",
+        "meta": "@sys.location",
+        "userDefined": true
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "0000/00/00",
+        "alias": "dateofjourney",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  },
+  {
+    "id": "e6f35089-2a0a-4e34-8455-b2095660fbd4",
+    "data": [
+      {
+        "text": "Make a booking",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0
+  }
+]
